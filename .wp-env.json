@@ -1,0 +1,17 @@
+{
+	"core": "https://wordpress.org/latest.zip",
+	"phpVersion": "8.1",
+	"plugins": [
+		"https://downloads.wordpress.org/plugin/woocommerce.latest-stable.zip",
+		"https://github.com/WordPress/mcp-adapter/releases/download/v0.7.1/mcp-adapter.zip",
+		"./store-mcp-for-woocommerce"
+	],
+	"mappings": {
+		"wp-content/wcmcp-dev": "./dev"
+	},
+	"config": {
+		"WP_DEBUG": true,
+		"WP_DEBUG_LOG": true,
+		"WP_DEBUG_DISPLAY": false
+	}
+}

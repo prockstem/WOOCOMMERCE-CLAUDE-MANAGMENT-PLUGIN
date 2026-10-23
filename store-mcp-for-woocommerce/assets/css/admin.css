@@ -1,0 +1,107 @@
+.wcmcp-connection h2 {
+	margin-top: 2em;
+}
+
+.wcmcp-copy-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+}
+
+.wcmcp-copy-row code {
+	padding: 4px 8px;
+	word-break: break-all;
+}
+
+.wcmcp-snippet {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	max-width: 960px;
+}
+
+.wcmcp-snippet textarea {
+	font-size: 12px;
+}
+
+.wcmcp-keys {
+	max-width: 960px;
+}
+
+.wcmcp-new-key code {
+	font-size: 13px;
+	word-break: break-all;
+}
+
+.wcmcp-test-results {
+	max-width: 960px;
+}
+
+.wcmcp-result {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 8px;
+	padding: 8px 12px;
+	border-left: 4px solid #8c8f94;
+	background: #fff;
+}
+
+.wcmcp-result-pass {
+	border-left-color: #00a32a;
+}
+
+.wcmcp-result-warn {
+	border-left-color: #dba617;
+}
+
+.wcmcp-result-fail {
+	border-left-color: #d63638;
+}
+
+.wcmcp-badge {
+	min-width: 60px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.wcmcp-log-table {
+	max-width: 1200px;
+}
+
+.wcmcp-log-table td {
+	vertical-align: top;
+}
+
+.wcmcp-log-details {
+	display: block;
+	max-height: 120px;
+	overflow: auto;
+	font-size: 11px;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.wcmcp-log-result {
+	font-weight: 600;
+}
+
+.wcmcp-log-success {
+	color: #00a32a;
+}
+
+.wcmcp-log-preview {
+	color: #2271b1;
+}
+
+.wcmcp-log-denied,
+.wcmcp-log-error {
+	color: #d63638;
+}
+
+.wcmcp-result-message {
+	flex-basis: 100%;
+	color: #50575e;
+}

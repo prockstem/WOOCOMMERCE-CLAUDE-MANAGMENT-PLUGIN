@@ -1,0 +1,7 @@
+# Keep Unix line endings in the repository and working copy (WordPress convention),
+# whatever core.autocrlf is set to on this machine.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.zip binary

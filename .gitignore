@@ -1,0 +1,10 @@
+# Dependencies (reinstall with composer install)
+/store-mcp-for-woocommerce/vendor/
+node_modules/
+
+# Build output (rebuild with dev/build-zip.ps1)
+/dist/
+
+# Test and tool caches
+.phpunit.result.cache
+.wp-env.override.json
